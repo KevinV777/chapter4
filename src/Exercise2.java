@@ -7,7 +7,6 @@
  * description: this program allows the user to enter as many scores as they want. once they have entered
  * as many scores as they want they type in an integer which causes the hasNextInt method to be false
  * thus stopping the while loop from running. it prints the average afterwards
- *
  */
 import java.util.Scanner;
 public class Exercise2 {
@@ -24,4 +23,5 @@ public class Exercise2 {
             }System.out.println((sum / count) + " is your average");
         }
     }
+    // line added
 
